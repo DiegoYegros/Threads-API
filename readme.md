@@ -1,0 +1,1 @@
+This is a non-official API for Threads, intended for educational purposes only.
