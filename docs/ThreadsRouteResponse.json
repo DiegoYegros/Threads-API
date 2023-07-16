@@ -1,0 +1,293 @@
+{
+  "payload": {
+    "payloads": {
+      "/diegoaly_": {
+        "error": false,
+        "result": {
+          "type": "route_definition",
+          "exports": {
+            "actorID": "0",
+            "rootView": {
+              "allResources": [
+                { "__jsr": "BarcelonaProfileThreadsRoot.react" },
+                { "__jsr": "BarcelonaProfileThreadsRoot.entrypoint" },
+                { "__jsr": "BarcelonaProfileRoot.react" }
+              ],
+              "resource": { "__jsr": "BarcelonaProfileThreadsRoot.react" },
+              "propropsps": {
+                 "user_id": "59165394300" 
+                },
+              "entryPoint": { "__dr": "BarcelonaProfileThreadsRoot.entrypoint" }
+            },
+            "tracePolicy": "barcelona.profilePage",
+            "meta": {
+              "title": "Diego Augusto (\u0040diegoaly_) on Threads",
+              "accessory": null,
+              "favicon": null
+            },
+            "prefetchable": true,
+            "entityKeyConfig": {
+              "entity_id": { "source": "prop", "value": "user_id" },
+              "entity_type": { "source": "constant", "value": "profilePage" }
+            },
+            "hostableView": {
+              "allResources": [
+                { "__jsr": "BarcelonaProfileThreadsRoot.react" },
+                { "__jsr": "BarcelonaProfileThreadsRoot.entrypoint" },
+                { "__jsr": "BarcelonaProfileRoot.react" }
+              ],
+              "resource": { "__jsr": "BarcelonaProfileThreadsRoot.react" },
+              "props": { "user_id": "59165394300" },
+              "entryPoint": { "__dr": "BarcelonaProfileThreadsRoot.entrypoint" }
+            },
+            "canonicalUrl": null
+          },
+          "route_match_infos": [
+            {
+              "instanceParams": { "tab": null, "vanity": "\u0040diegoaly_" },
+              "routeParams": {
+                "tab": {
+                  "legacyNames": [],
+                  "default": null,
+                  "path": false,
+                  "significant": true,
+                  "coercibleType": "ENUM"
+                },
+                "vanity": {
+                  "legacyNames": [],
+                  "default": null,
+                  "path": true,
+                  "significant": true,
+                  "coercibleType": "STRING"
+                }
+              },
+              "routePath": "/{vanity}/{?tab}/"
+            }
+          ]
+        }
+      }
+    },
+    "sr_payload": {
+      "hsrp": {
+        "hblp": {
+          "consistency": { "rev": 1007848011 },
+          "rsrcMap": {
+            "CcM+LCX": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/qRed4bo9P9-.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":1",
+              "m": "1007848011_main",
+              "nc": 1,
+              "prelude": 1
+            },
+            "4Z0a9I/": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ilpL4/yU/l/en_US/JBASycfxYXw.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":4",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "3unTLaW": {
+              "type": "css",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yS/l/0,cross/CvINKsDUa-A.css?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":8",
+              "nc": 1
+            },
+            "KeAios5": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/JpZGPuQtimm.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":7",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "6C/RL1a": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ije04/yc/l/en_US/9eHEyYrT9db.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":5",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "UgbzOpR": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3irC-4/yy/l/en_US/kvVH2psUSKH5qKf_cCaYhtA2ax444HOgd.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":9,17,25",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "ZLZuG2G": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ihr24/yf/l/en_US/i2eadPlrWuU.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":2",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "Yc0ZPkH": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3i_2e4/yY/l/en_US/zPVCsSNAwRY.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":23",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "CqoIfM5": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3ikM54/y7/l/en_US/GvCp0NlXnRo.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":22",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "f3L5bgk": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/WYE106fubwRgwebvEZCf4f.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":16,21",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "gfwvs28": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3iulY4/yf/l/en_US/CKMx-sio2tm.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":13",
+              "m": "1007848011_main",
+              "nc": 1
+            },
+            "BG+mBnk": {
+              "type": "js",
+              "src": "https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/s70ZcYOHW2g.js?_nc_x=Ij3Wp8lg5Kz",
+              "c": 1,
+              "p": ":15",
+              "m": "1007848011_main",
+              "nc": 1
+            }
+          },
+          "compMap": {
+            "BarcelonaProfileThreadsRoot.react": {
+              "r": ["4Z0a9I/", "3unTLaW", "CcM+LCX", "KeAios5", "6C/RL1a"],
+              "rdfds": {
+                "m": [
+                  "BarcelonaProfileThreadsTab.react",
+                  "CometExceptionDialog.react",
+                  "VideoPlayerSpinner.react",
+                  "VideoPlayerCaptionsArea.react",
+                  "CometTooltipDeferredImpl.react"
+                ],
+                "r": ["UgbzOpR", "ZLZuG2G", "Yc0ZPkH"]
+              },
+              "rds": {
+                "m": [
+                  "FbtLogging",
+                  "CometSuspenseFalcoEvent",
+                  "IntlQtEventFalcoEvent",
+                  "BarcelonaAppUpsellDialog.react",
+                  "BarcelonaOverflowMenu.react",
+                  "BarcelonaLightboxDialog.react",
+                  "BarcelonaRegionGatedAppUpsellDialog.react",
+                  "VideoPlayerWithLiveVideoInterruptedOverlay.react",
+                  "LynxAsyncCallbackFalcoEvent",
+                  "BarcelonaToast.react",
+                  "BaseToast.react"
+                ],
+                "r": ["CqoIfM5", "f3L5bgk", "gfwvs28", "BG+mBnk"]
+              },
+              "be": 1
+            },
+            "BarcelonaProfileThreadsRoot.entrypoint": {
+              "r": ["4Z0a9I/", "CcM+LCX"],
+              "be": 1
+            },
+            "BarcelonaProfileRoot.react": {
+              "r": ["4Z0a9I/", "CcM+LCX", "KeAios5", "6C/RL1a"],
+              "rdfds": {
+                "m": ["BarcelonaProfilePage.react", "CometPressable.react"],
+                "r": ["UgbzOpR", "ZLZuG2G", "3unTLaW", "Yc0ZPkH"]
+              },
+              "rds": {
+                "m": [
+                  "BarcelonaAppUpsellDialog.react",
+                  "BarcelonaOverflowMenu.react",
+                  "BarcelonaFediverseExplainerDialog.react",
+                  "BarcelonaProfileUserAvatarDialog.react",
+                  "BarcelonaRegionGatedAppUpsellDialog.react",
+                  "FbtLogging",
+                  "LynxAsyncCallbackFalcoEvent",
+                  "CometSuspenseFalcoEvent",
+                  "IntlQtEventFalcoEvent",
+                  "BarcelonaToast.react",
+                  "BaseToast.react"
+                ],
+                "r": ["f3L5bgk", "CqoIfM5", "gfwvs28", "BG+mBnk"]
+              },
+              "be": 1
+            }
+          }
+        }
+      },
+      "jsmods": {
+        "define": [
+          [
+            "cr:6640",
+            [],
+            {
+              "__rc": [
+                null,
+                "Aa0Cy4U3MrzS-S2i7-uSNjvryd5uYgmynyuG2jbK9P0vDpQWhN2B6TFt6HKlCOgN24dgZfOWlNkWUSVRlvIHx9Sls6qvYA"
+              ]
+            },
+            -1
+          ]
+        ],
+        "require": [
+          [
+            "emptyFunction",
+            "thatReturns",
+            ["JSResourceReferenceImpl"],
+            [
+              [
+                { "__jsr": "BarcelonaProfileThreadsRoot.react" },
+                { "__jsr": "BarcelonaProfileThreadsRoot.entrypoint" },
+                { "__jsr": "BarcelonaProfileRoot.react" }
+              ]
+            ]
+          ],
+          ["BarcelonaProfileThreadsRoot.entrypoint"],
+          [
+            "emptyFunction",
+            "thatReturns",
+            ["RequireDeferredReference"],
+            [
+              [
+                { "__dr": "BarcelonaProfileThreadsRoot.entrypoint" },
+                { "__dr": "BarcelonaProfileThreadsRoot.entrypoint" }
+              ]
+            ]
+          ],
+          [
+            "RequireDeferredReference",
+            "unblock",
+            [],
+            [["BarcelonaProfileThreadsRoot.entrypoint"], "sd"]
+          ],
+          [
+            "RequireDeferredReference",
+            "unblock",
+            [],
+            [["BarcelonaProfileThreadsRoot.entrypoint"], "css"]
+          ]
+        ]
+      },
+      "allResources": ["CcM+LCX", "4Z0a9I/"]
+    },
+    "log_roots": ["BarcelonaProfileThreadsJSRoot"]
+  },
+  "dtsgAsyncGetToken": null,
+  "dtsgToken": null
+}
