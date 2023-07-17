@@ -10,6 +10,7 @@ COPY pom.xml .
 # Copy the source code into the Docker image
 COPY src ./src
 
+RUN mvn clean
 # Run mvn install to build the jar file
 RUN mvn install
 
