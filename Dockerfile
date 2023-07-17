@@ -1,5 +1,5 @@
 # Use a base image that includes both OpenJDK and Maven
-FROM maven:3.8.2-openjdk-17 as build
+FROM maven:3.8.2-openjdk-17 AS build
 
 # Set the working directory in the Docker image
 WORKDIR /app
@@ -15,7 +15,7 @@ RUN mvn clean
 RUN mvn install
 
 # Use a base image that includes just OpenJDK for the runtime image
-FROM openjdk:17-jdk-alpine as runtime
+FROM openjdk:17-jdk-alpine AS runtime
 
 # Set the working directory in the Docker image
 WORKDIR /app
